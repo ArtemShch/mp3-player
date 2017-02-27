@@ -1,8 +1,8 @@
+package gui;
+
 import javax.swing.*;
 
-/**
- * Created by Артем on 27.02.2017.
- */
+
 public class mp3player {
 
     private JPanel mainPanel;
@@ -19,6 +19,9 @@ public class mp3player {
     private JButton addButton;
     private JButton removeButton;
     private JButton sellectAllButton;
+
+    public mp3player() {
+    }
 
     private void createUIComponents() {
         // TODO: place custom component creation code here
